@@ -20,7 +20,7 @@ public class CoreJavaWithJunit
 	@After
 	public void cleaupScript()
 	{
-		System.out.println("This is my CleanUp Script");
+		System.out.println("This is my After test Script");
 		logoutFromGmail();
 		closeGmailBrowser();
 		
