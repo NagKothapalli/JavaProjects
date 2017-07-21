@@ -20,7 +20,7 @@ public class CoreJavaWithJunit
 	@After
 	public void cleaupScript()
 	{
-		System.out.println("This is my After test Script");
+		System.out.println("New Feature branch created ,This is my After test Script");
 		logoutFromGmail();
 		closeGmailBrowser();
 		
